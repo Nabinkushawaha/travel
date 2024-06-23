@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:80% ;
+  margin-left: auto;
+  margin-right: auto;
+}
+#menu{
+    list-style-type: none;
+    display: flex;
+   
+}
+#flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    background-image: url(Group\ 73.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+}
+#booking{
+    height: 400px;
+}
+#goods h2{
+    text-align: center;
+}
+#goods-parent{
+    display: flex;
+}
+#goods-child{
+    text-align: center;
+}
+#goods h2{
+    margin-bottom: 55%;
+}
+#goods h3{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.booking{
+    width:180px;
+    height:40px;
+    background-color: black;
+    color: white;
+    border-top-left-radius:15px ;
+    border-top-right-radius:35px ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.booking h3{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.blur{
+    height:180px;
+    width: 920px;
+    background-color:rgb(237, 237, 238);
+    border-top-right-radius:15px ;
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius:15px ;
+    padding: 25px;
+}
+.data{
+    height:130px ;
+    width:870px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.data-1{
+display: flex;
+}
+.data-2{
+display: flex;
+}
+.data-3{
+display: flex;
+}
+.data-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#first{
+   padding-top: 200px;
+   padding-bottom: 260px;
+}
+.city{
+    position:relative;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+#sub{
+    position: absolute;
+    margin: 0;
+    
+}
